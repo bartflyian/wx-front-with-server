@@ -47,8 +47,4 @@ wx-webserver:
         - router.js         // 自动化加载routers
         - templating.js     // 路由页面输出配置
 
-(3) 功能模块分析
-
-
- 
-            
+(3) 功能模块分析 
