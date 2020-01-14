@@ -33,19 +33,19 @@ wx-webserver:
 
 
 (2) 服务器文件夹介绍
-        + wx-webserver
-            + config        
-                 - DBconfig.js   // 数据库连接配置
-        + controller        // 控制器文件夹
-        + lib               // Sequelize 连接数据库配置
-        + models            // 数据库表映射(sequelize)
-        + router            // http请求 路由配置
-        + service           // 数据库操作
-        + views             // 路由页面
-        - app.js            // 入口文件
-        - model.js          // 自动化加载models
-        - router.js         // 自动化加载routers
-        - templating.js     // 路由页面输出配置
+>+ wx-webserver
+>>+ config        
+>>>- DBconfig.js   // 数据库连接配置
+>>+ controller        // 控制器文件夹
+>>+ lib               // Sequelize 连接数据库配置
+>>+ models            // 数据库表映射(sequelize)
+>>+ router            // http请求 路由配置
+>>+ service           // 数据库操作
+>>+ views             // 路由页面
+>>- app.js            // 入口文件
+>>- model.js          // 自动化加载models
+>>- router.js         // 自动化加载routers
+>>- templating.js     // 路由页面输出配置
 
 (3) 功能模块分析 
 
