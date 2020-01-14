@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+    <meta charset="utf-8">
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>  
+    </head> 
+    <body> 
+        <div class="container">
+            <div class="panel-body">
+                <form action="/add" method="post">
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="text" name="name" class="form-control" placeholder="username"> 
+                    </div> 
+                    <button type="submit" class="btn btn-primary">add user</button>
+                </form>
+            </div>  
+            <table>
+                <tbody>
+                {% for item in data %}
+                    <tr style="border:1px solid #eee;">
+                        <td style="background-color: antiquewhite;">{{item.name}}</td>
+                        <td><button type="submit" class="btn btn-primary" onclick="deleteUser(id)">delete</button></td>
+                    </tr>
+                {% endfor %} 
+                </tbody>
+            </table>
+        </div>
+        </body>
+    </html>
