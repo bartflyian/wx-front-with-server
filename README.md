@@ -1,4 +1,4 @@
-工具： nodejs@10.16.0   mysql@5.7   vue/cli@4.1.2
+工具： nodejs@10.16.0      mysql@5.7      vue/cli@4.1.2
 
 wx-webfront :
     vue前端代码文件夹 
