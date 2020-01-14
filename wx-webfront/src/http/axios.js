@@ -1,4 +1,3 @@
-import Vue from 'vue'
 import axios from 'axios'; 
 
 axios.defaults.timeout = 5000; 
@@ -11,6 +10,6 @@ if(process.env.NODE_ENV == 'development'){
 }
 axios.defaults.baseURL = baseurl;// api 的 base_url
 
-Vue.prototype.$axios = axios;
+export default axios;
  
 
