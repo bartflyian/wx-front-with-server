@@ -15,7 +15,7 @@ wx-webserver:
         node app.js    (localhost:3000)
 
 
-(1) 1.创建mysql数据库(koa)<br>  
+(1) 1.创建mysql数据库(koa)  
     2.navicat执行:(创建users表)
     
     use koa;
