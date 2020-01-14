@@ -33,9 +33,9 @@ wx-webserver:
 
 
 (2) 服务器文件夹介绍
-    + wx-webserver
-        + config        
-            - DBconfig.js   // 数据库连接配置
+        + wx-webserver
+            + config        
+                 - DBconfig.js   // 数据库连接配置
         + controller        // 控制器文件夹
         + lib               // Sequelize 连接数据库配置
         + models            // 数据库表映射(sequelize)
