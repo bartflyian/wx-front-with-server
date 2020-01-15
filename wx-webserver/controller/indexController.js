@@ -1,4 +1,5 @@
-const user = require("../service/user")
+const user = require("../service/user") 
+
 let getInindex = async (ctx) => { 
     ctx.body = "index";   
     let data = await user.showAllUser();

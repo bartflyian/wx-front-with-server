@@ -8,12 +8,15 @@
 
     <p>用户列表</p>
     <userList :userData='alluserData'></userList>
+
+    <!-- <Wangyicommentslist></Wangyicommentslist> -->
   </div>
 </template>
 
 <script> 
 
 import userList from './components/userList'
+//import Wangyicommentslist from './components/wangyiCommentsList'
 export default {
   name: 'app',
   data (){
@@ -23,7 +26,8 @@ export default {
         }
     },
   components: { 
-    userList
+    userList,
+    //Wangyicommentslist
   },
   mounted(){
     this.getAllUser();
@@ -63,7 +67,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
