@@ -29,7 +29,6 @@ export default {
         getWYComments(){         //获取用户列表
             this.$axios.get('/comments').then((res) => {
                 console.log(res.data) 
-                
                 this.commentsData = res.data;
             });
         }, 
