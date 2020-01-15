@@ -40,6 +40,9 @@ export default {
 <style lang="less" scoped>
     #comments-list{
         position: relative;
+        background: #eee;
+        font-size: 13px;
+        color: #999;
         ul{
             li{
                 list-style: none;

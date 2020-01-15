@@ -12,7 +12,7 @@ wx-webserver:
     
     运行：
         npm install
-        node app.js    (localhost:3000)
+        npm start   (localhost:3000)
 
 
 (1) 1.创建mysql数据库(koa)  
