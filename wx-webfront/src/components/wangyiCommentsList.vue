@@ -39,9 +39,9 @@ export default {
 <style lang="less" scoped>
     #comments-list{
         position: relative;
-        background: #eee;
+        background: #3a3737;
         font-size: 13px;
-        color: #999;
+        color: #c3c1c1;
         width: 70%;
         padding: 15px 30px;
         margin-top: 40px;
@@ -59,7 +59,7 @@ export default {
                 line-height: 18px;
              }
              span{
-                color: #5d5c5c;
+                color: #7b809e;
              }
             img{
                 height: 40px;
