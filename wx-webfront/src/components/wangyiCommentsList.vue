@@ -43,6 +43,10 @@ export default {
         background: #eee;
         font-size: 13px;
         color: #999;
+        width: 70%;
+        padding: 15px 30px;
+        margin-top: 40px;
+        border-radius: 20px;
         ul{
             li{
                 list-style: none;
@@ -50,9 +54,13 @@ export default {
             }
         }
         .info{
-             border-bottom: 1px solid #999;
+             border-bottom: 1px solid #e4d6d6;
+             p{
+                text-indent: -50px;
+                line-height: 18px;
+             }
              span{
-                color: rgb(105, 105, 236);
+                color: #5d5c5c;
              }
             img{
                 height: 40px;

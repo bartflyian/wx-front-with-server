@@ -9,14 +9,14 @@
     <p>用户列表</p>
     <userList :userData='alluserData'></userList>
 
-    <!-- <Wangyicommentslist></Wangyicommentslist> -->
+    <Wangyicommentslist></Wangyicommentslist>
   </div>
 </template>
 
 <script> 
 
 import userList from './components/userList'
-//import Wangyicommentslist from './components/wangyiCommentsList'
+import Wangyicommentslist from './components/wangyiCommentsList'
 export default {
   name: 'app',
   data (){
@@ -27,7 +27,7 @@ export default {
     },
   components: { 
     userList,
-    //Wangyicommentslist
+    Wangyicommentslist
   },
   mounted(){
     this.getAllUser();
