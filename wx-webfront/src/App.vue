@@ -7,7 +7,7 @@
      </span>
 
     <p>用户列表</p>
-    <userList :userData='alluserData'></userList>
+    <userList :userData='alluserData' @reload='getAllUser'></userList>
 
     <Wangyicommentslist></Wangyicommentslist>
   </div>
@@ -59,7 +59,8 @@ export default {
             console.log(res.data)
             if(res.status == 200 && res.statusText == "OK") {
                 alert("添加成功");
-                location.reload();
+                this.adduserName = '';
+                this.getAllUser();
             } 
         });
     }

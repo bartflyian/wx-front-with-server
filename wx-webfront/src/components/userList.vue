@@ -27,7 +27,7 @@ export default {
                 console.log(res) 
                 if(res.status == 200 && res.statusText == "OK") {
                     alert("删除成功");
-                    location.reload();
+                    this.$emit('reload');
                 }
             });
         }
