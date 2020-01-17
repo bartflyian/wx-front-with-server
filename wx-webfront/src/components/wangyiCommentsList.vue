@@ -26,7 +26,7 @@ export default {
       this.getWYComments();
   },
   methods:{ 
-        getWYComments(){         //获取用户列表
+        getWYComments(){         //获取评论
             this.$axios.get('/comments').then((res) => {
                 console.log(res.data) 
                 this.commentsData = res.data;
