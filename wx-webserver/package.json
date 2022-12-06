@@ -19,7 +19,7 @@
   "dependencies": {
     "axios": "^0.19.1",
     "koa": "2.0.0",
-    "koa-bodyparser": "3.2.0",
+    "koa-bodyparser": "4.3.0",
     "koa-router": "7.0.0",
     "mysql": "2.11.1",
     "nunjucks": "2.4.2",
